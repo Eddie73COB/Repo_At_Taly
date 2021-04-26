@@ -88,7 +88,14 @@ above ![TSM2](TSM2.png)
 - o > The field *o* is destined for the business unit. To have it filled just type the number described on the new hire form request on the dropdown menu (shortcut: Type P# and press the *Down* with the your directionl path on your keyboard)
 - officeLocation > Type office number from new hire form and select correct option from drop down menu.  (shortcut: Type P# and press the *Down* with the your directionl path on your keyboard)
 
-8. 
+8. Add Properties:
+
+- General Tab > Verify user's information is correct
+- Address Tab > Fill in physical address from new new hire request form, city, state code only (unless from Mexico) and zip code.
+
+![TSM10](TSM10.png)
+
+
 
 > **Note:** The user's mailbox is created automatically depending on the path in which the new user was created.
 
