@@ -111,6 +111,8 @@ above ![TSM2](TSM2.png)
 
 9. Look up the new user in AD and verify information is accurate and e-mail has been created automatically, if so proceed to email the requester and manager (*If user is from Mexico, only email manager) with [New Hire Template](#New-Hire-Template).
 
+> **Note:** The user's mailbox is created automatically depending on the path in which the new user was created.
+
 ## EAC
 
 If the new user was requested to be created with an Eail account then will need to be added to the *Azure* O365AllowGroupCreation security group.
@@ -134,6 +136,31 @@ To complete this task follow the steps below:
 ![TSM16](TSM16.png)
 
 5. Open *Manage Groups*, search for the group *O365AllowGroupCreation* and double click to confirm that the user's name has been added correctly.
+
+## VPN
+
+If the new user is requested to have access to VPN then we need to follow the steps below:
+
+1. Search for user's name on ARS and double click on his name to open his/her Active Directory Profile card.
+
+2. Go to *Member of* Tab and clic on *Add*
+
+![TSM17](TSM17.png)
+
+3. Add the Security group ***2FA_MobilePass_Auth***. 
+
+> **Note:** All NTT contractors must be added to *2FA_MobilePass_CitrixAuth* security group.
+
+![TSM18](TSM18.png)
+
+## Users without Email
+
+1. Create the account under the “TRN Provision w/o Mailbox > Users”
+2. Third party e-mail should be provided by the requestor. Search in notes or attachments in TSM. If
+the email was not found, contact the requester to obtain it.
+3. Once the third party email was obtained go to Active Directory “General” tab and add the email in the email box and then add the VPN group as stated above.
+
+
 
 
 ## New Hire Template
@@ -164,5 +191,5 @@ Regards,
 
 
 
-> **Note:** The user's mailbox is created automatically depending on the path in which the new user was created.
+
 
