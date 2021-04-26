@@ -95,6 +95,16 @@ above ![TSM2](TSM2.png)
 
 ![TSM10](TSM10.png)
 
+- Account Tab > Set *Expiration Date* based on type of employee:
+  - Regular employee > Never
+  - Contractor > 90 Days
+  - ASC Contractor > Feb 15 of following year (**Note:** Remember to add EXL Desktop Icon in AD for this cases)
+  - NTT Contractor > Jan 1 of following year
+
+  ![TSM11](TSM11.png)
+
+  
+
 
 
 > **Note:** The user's mailbox is created automatically depending on the path in which the new user was created.
