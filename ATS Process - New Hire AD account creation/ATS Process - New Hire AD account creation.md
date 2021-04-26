@@ -5,7 +5,7 @@
 |-------------------------|-----------------------------------|
 |Version: 1.0             |Document type: Knowledge           |
 |Creation Date: 03/28/2021|Last Modification:                 |
-|Owner: Eduardo Osuna    |Last modification made by:         |
+|Owner: Eduardo Osuna     |Last modification made by:         |
 
 <br></br>
 <br></br>
@@ -26,14 +26,14 @@
 
 These kind of tasks can include three kind of requirements. 
 
-1. Network Account creation which is the main requirement
+1. Network Account creation which is the main requirement.
 
 > This Requirement is always present on this Service Request.
 
-2. Network Account with Email address
-3. Network Account with VPN Access 
+2. Network Account with Email address.
+3. Network Account with VPN Access.
 
-> This last one might or not include Email Address as well
+> This last one might or not include Email Address as well.
 
 To have this tasks completed is needed to be sure of which path is to be chosen according with the requirements requested.
 
@@ -42,7 +42,7 @@ To have this tasks completed is needed to be sure of which path is to be chosen 
 To have a Network account only we need to have the new user created on the following path in Active Role Console:
 
 Network account with Email Account
-ARS path: Quest One ActiveRoles> Configuration > Managed Units> _Trinity > Service Desk > TRN Provision w/ Mailbox > Users
+ARS path: Quest One ActiveRoles> Configuration > Managed Units> _Trinity > Service Desk > TRN Provision w/ Mailbox > Users.
 
 Network account without Email Account
 ARS path: Quest One ActiveRoles> Configuration > Managed Units> _Trinity > Service Desk > TRN Provision w/o Mailbox > Users.
@@ -62,7 +62,7 @@ above ![TSM2](TSM2.png)
 
 ![TSM4](TSM4.png)
 
-4. Click on *AB* button to generate the network user name and click on Next
+4. Click on *AB* button to generate the network user name and click on Next.
 
 ![TSM5](TSM5.png)
 
@@ -76,30 +76,30 @@ above ![TSM2](TSM2.png)
 
 ![TSM7](TSM7.png)
 
-- Enter Cost center with the configuration Physical plant number + Department number (Plant 2099 + Department 6120 > Cost Center: 209961201
-- Country/Region > United States or Mexico
-- edsva-trn-Provisioning Ticket Number > Enter the provisioning ticket number
-- edsva-trn-VIPUser > If user is marked as VIP, select the VIP tag
-- employeeNumber > Type or copy and paste user's employee number from new hire form request
-- Manager > Double click on the field to be populated and then on the three dotted button, search for manager with e-mail. Click OK. (Make sure DN syntax appears in Value [see below])
+- Enter Cost center with the configuration Physical plant number + Department .number (Plant 2099 + Department 6120 > Cost Center: 209961201.
+- Country/Region > United States or Mexico.
+- edsva-trn-Provisioning Ticket Number > Enter the provisioning ticket number.
+- edsva-trn-VIPUser > If user is marked as VIP, select the VIP tag.
+- employeeNumber > Type or copy and paste user's employee number from new hire form request.
+- Manager > Double click on the field to be populated and then on the three dotted button, search for manager with e-mail. Click OK. (Make sure DN syntax appears in Value [see below]).
     ![TSM8](TSM8.png)
     ![TSM9](TSM9.png)
-- employeeType > Select *User* for all defined as direct employees and *Contractor* for all others
-- o > The field *o* is destined for the business unit. To have it filled just type the number described on the new hire form request on the dropdown menu (shortcut: Type P# and press the *Down* with the your directionl path on your keyboard)
-- officeLocation > Type office number from new hire form and select correct option from drop down menu.  (shortcut: Type P# and press the *Down* with the your directionl path on your keyboard)
+- employeeType > Select *User* for all defined as direct employees and *Contractor* for all others.
+- o > The field *o* is destined for the business unit. To have it filled just type the number described on the new hire form request on the dropdown menu (shortcut: Type P# and press the *Down* with the your directionl path on your keyboard).
+- officeLocation > Type office number from new hire form and select correct option from drop down menu.  (shortcut: Type P# and press the *Down* with the your directionl path on your keyboard).
 
 8. Add Properties:
 
-- General Tab > Verify user's information is correct
+- General Tab > Verify user's information is correct.
 - Address Tab > Fill in physical address from new new hire request form, city, state code only (unless from Mexico) and zip code.
 
 ![TSM10](TSM10.png)
 
 - Account Tab > Set *Expiration Date* based on type of employee:
-  - Regular employee > Never
-  - Contractor > 90 Days
-  - ASC Contractor > Feb 15 of following year (**Note:** Remember to add EXL Desktop Icon in AD for this cases)
-  - NTT Contractor > Jan 1 of following year
+  - Regular employee > Never.
+  - Contractor > 90 Days.
+  - ASC Contractor > Feb 15 of following year (**Note:** Remember to add EXL Desktop Icon in AD for this cases).
+  - NTT Contractor > Jan 1 of following year.
 
   ![TSM11](TSM11.png)
 
@@ -123,11 +123,11 @@ To complete this task follow the steps below:
 
 ![TSM13](TSM13.png)
 
-2. Click on *Manage Groups*
+2. Click on *Manage Groups*.
 
 ![TSM14](TSM14.png)
 
-3. Clik on *Add Memberships*
+3. Clik on *Add Memberships*.
 
 ![TSM15](TSM15.png)
 
@@ -143,7 +143,7 @@ If the new user is requested to have access to VPN then we need to follow the st
 
 1. Search for user's name on ARS and double click on his name to open his/her Active Directory Profile card.
 
-2. Go to *Member of* Tab and clic on *Add*
+2. Go to *Member of* Tab and clic on *Add*.
 
 ![TSM17](TSM17.png)
 
