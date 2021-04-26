@@ -175,6 +175,7 @@ Below is the login information for *User's Name*
 Username: **
 
 Temp Password: **
+
 Employee#: **
 
 Email: **
