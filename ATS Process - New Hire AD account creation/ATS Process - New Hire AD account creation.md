@@ -103,7 +103,8 @@ above ![TSM2](TSM2.png)
 
   ![TSM11](TSM11.png)
 
-  
+  - Profile Tab > Check and make sure that Home Drive was succesfully created 
+  - Telephone Tab > Leave as it is
 
 
 
