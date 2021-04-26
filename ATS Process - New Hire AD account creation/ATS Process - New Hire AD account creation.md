@@ -103,8 +103,64 @@ above ![TSM2](TSM2.png)
 
   ![TSM11](TSM11.png)
 
-  - Profile Tab > Check and make sure that Home Drive was succesfully created 
-  - Telephone Tab > Leave as it is
+  - Profile Tab > Check and make sure that Home Drive was succesfully created. 
+  - Telephone Tab > Leave as it is.
+  - Organization Tab > Copy and paste “Title”, “Department”, “Company” (Labeled as BU# in NHF)from new hire form and make sure the Manager's name is correct.
+
+  ![TSM12](TSM12.png)
+
+9. Look up the new user in AD and verify information is accurate and e-mail has been created automatically, if so proceed to email the requester and manager (*If user is from Mexico, only email manager) with [New Hire Template](#New-Hire-Template).
+
+## EAC
+
+If the new user was requested to be created with an Eail account then will need to be added to the *Azure* O365AllowGroupCreation security group.
+
+To complete this task follow the steps below:
+
+1. Log into your EAC account and search for the new user with *Login ID* and double click on user's name.
+
+![TSM13](TSM13.png)
+
+2. Click on *Manage Groups*
+
+![TSM14](TSM14.png)
+
+3. Clik on *Add Memberships*
+
+![TSM15](TSM15.png)
+
+4. Search for the group *O365AllowGroupCreation*, double click on it and add user to the group then click *Save*.
+
+![TSM16](TSM16.png)
+
+5. Open *Manage Groups*, search for the group *O365AllowGroupCreation* and double click to confirm that the user's name has been added correctly.
+
+
+## New Hire Template
+
+
+After Active Directory account is created a notification email is sent to user’s manager with New hire information:
+
+Hello *Requester’s Name*,
+
+Below is the login information for *User's Name*
+
+Username: **
+
+Temp Password: **
+Employee#: **
+
+Email: **
+
+> Account Expires: (Expiration date if applies)
+
+If the user is working remotely, please have them log in to www.owa.trin.net. They will be prompted to change their password and then they may setup the VPN.
+
+Regards,
+
+(ATS Signature)
+
+
 
 
 
